@@ -5,7 +5,7 @@ and a target language into a publish-ready, professional LinkedIn post.
 
 > Module 21 — Ostad AI/ML Engineering Program (Batch 6)
 
-## Why this is an *agent*, not just a prompt
+## This is an `agent`, not just a prompt
 
 Instead of a single LLM call, the agent runs a **two-stage reflection
 pipeline** — a recognized agentic design pattern:
@@ -44,8 +44,7 @@ linkedin-post-agent/
 
 ## Setup
 
-1. Get a **free** Gemini API key (no credit card required) from
-   [Google AI Studio](https://aistudio.google.com/apikey).
+1. I created a **free** `API-key` from Google AI Studio and used it to connect the Gemini    model with my project.
 2. Clone the repo and install dependencies:
    ```bash
    git clone https://github.com/farjanaferdausi-cs50ai/linkedin-post-agent.git
