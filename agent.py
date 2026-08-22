@@ -35,11 +35,11 @@ from langchain_core.runnables import Runnable
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 
-# A default model. gemini-2.5-flash is on Google's free tier (no credit
+# A default model. gemini-3.6-flash is on Google's free tier (no credit
 # card needed) and is stable/GA, which makes it the safest pick for a
-# student project. You can swap it for a newer model (e.g. "gemini-3.6-flash")
+# student project. 
 # any time by changing ONE line, thanks to LangChain's provider-agnostic design.
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.6-flash"
 
 
 @dataclass
