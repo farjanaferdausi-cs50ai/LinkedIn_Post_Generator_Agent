@@ -1,7 +1,7 @@
 """
 agent.py
 
-An AI agent, built with LangChain + Google Gemini, that turns a
+An AI agent, built with LangChain & Google Gemini, that turns a
 (topic, language) pair into a publish-ready LinkedIn post.
 
 --------------------------------------------------------------------
@@ -35,15 +35,15 @@ from langchain_core.runnables import Runnable
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 
-# A default model. gemini-3.6-flash is on Google's free tier (no credit
-# card needed) and is the current stable/GA workhorse Flash model.
-#
+# A default model. gemini-3.6-flash is on Google's free tier
+# and is the current stable/GA workhorse Flash model.
 # Note on model lifecycles: Google regularly retires older model IDs
 # (e.g. gemini-2.5-flash was retired for new users shortly after this
 # project started). If generate() ever raises a 404 / "model not found"
 # error, check the current model list at https://ai.google.dev/gemini-api/docs/models
 # and update this ONE line - no other code needs to change, which is the
 # whole point of keeping the model name in a single constant.
+# Model 'gemini-3.6-flash' uses fixed sampling defaults; temperature will be ignored
 DEFAULT_MODEL = "gemini-3.6-flash"
 
 
@@ -129,7 +129,7 @@ class LinkedInPostAgent:
         return prompt | self.llm | StrOutputParser()
 
     # ------------------------------------------------------------------
-    # Stage 2: CRITIQUE + REFINE
+    # Stage 2: CRITIQUE & REFINE
     # ------------------------------------------------------------------
     def _build_critique_chain(self) -> Runnable:
         prompt = ChatPromptTemplate.from_messages(
