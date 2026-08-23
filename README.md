@@ -124,4 +124,10 @@ LinkedIn_Post_Generator_Agent/
 
 [![GitHub](https://img.shields.io/badge/GitHub-farjanaferdausi--cs50ai-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/farjanaferdausi-cs50ai)
 
+Google Colab Link : https://colab.research.google.com/drive/1hRgCrohAH4q5gnTlE9Sib-Mqq_gRKi1a?usp=sharing
+
+LinkedIn Link : https://www.linkedin.com/in/farjana-ferdausi
+
+Medium Link : https://medium.com/@farjana.rafi1983
+
 </div>
