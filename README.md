@@ -4,7 +4,7 @@
 
 **An AI agent built with LangChain and Google Gemini that turns a topic and a target language into a publish-ready, professional LinkedIn post.**
 
-`Module 21` · `Ostad AI/ML Engineering Program` · `Batch 6`
+##**`Module 21` · `Ostad AI/ML Engineering Program` · `Batch 6`**
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/farjanaferdausi-cs50ai/LinkedIn_Post_Generator_Agent/blob/main/LinkedIn_Post_Generator_Agent.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -16,7 +16,7 @@
 
 <br>
 
-## 🧠 Why This Is an *Agent* — Not Just a Prompt
+## 🧠 Why This Is an **Agent** — Not Just a Prompt
 
 Most "AI post generators" are a single prompt wired to an LLM. This one goes a step further: it runs a **two-stage reflection pipeline**, a recognized agentic design pattern where the model reasons about and corrects its own output before returning it.
 
