@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔗 LinkedIn Post Generator Agent
+# ↗️ LinkedIn Post Generator Agent 🤖
 
 `Module 21` · `Ostad AI/ML Engineering Program` · `Batch 6`
 **Author:** Farjana Ferdausi
@@ -15,7 +15,7 @@
 
 ---
 
-## 📌 About This Notebook
+## 📘 About This Notebook
 
 - Provide a `topic` and a `language`, the agent returns a publish-ready LinkedIn post (2–4 paragraphs, hook, hashtags, call to action).
 - This is an `agent`, not just a prompt.
@@ -32,7 +32,7 @@ topic, language ──▶ [ Draft Chain ] ──▶ [ Critique & Refine Chain ] 
 > [!TIP]
 > Self-correction loop is what turns a plain chain into agentic behavior.
 
-## 📦 1. Install Dependencies
+## 🌐 1. Install Dependencies
 
 Install the required packages: `langchain`, `langchain-core`, and `langchain-google-genai`.
 
@@ -40,13 +40,13 @@ Install the required packages: `langchain`, `langchain-core`, and `langchain-goo
 
 I created a **free** `API-key` from Google AI Studio and used it to connect the Gemini model with my project.
 
-## 🏗️ 3. Build the Agent
+## 💠 3. Build the Agent
 
 For this project, I created the main agent logic in a separate Python file called `agent.py`. This is standard practice in production ML engineering — notebooks are for demos and exploration, `.py` files hold the reusable logic.
 
 I did this to keep the notebook simple and organized. The notebook is mainly used for testing and demonstrating the agent, while `agent.py` contains the reusable code for generating LinkedIn posts.
 
-## 🚀 4. Try It Yourself
+## 🌀 4. Try It Yourself
 
 Now I can test the agent by changing the topic and language in the notebook. No code changes are needed — I just enter my choices in the Colab form and run the cell to generate a LinkedIn post.
 
